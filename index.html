@@ -3,27 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Meu Portal de Noticias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Formulário de Cadastro</h1>
-    <form>
-        <label for="text"> Seu Nome: </label> 
-        <input type="text" placeholder="Seu Nome" />
-        <br />
-        <label for = "email"> Seu Email: </label>
-        <input type="email" placeholder="Seu Email" />
-        <br />
-        <label for="password"> Senha: </label>
-        <input type="password" placeholder="Senha" />
-        <br />
-        <button type="submit">
-            Cadastrar
-        </button>
-        <button type="reset">
-            Limpar
-        </button>
-    </form>
+    <header>
+        <div class="container">
+            <h1>Meu Portal de Noticias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para seção de Esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para seção de Economia">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#entertainment" title="Ir para seção de Entretenimento">Entretenimento</a>
+                    </li>
+                    <li>
+                        <a href="#tech" title="Ir para seção de Tecnologia">Tecnologia</a>
+                    </li>
+                </ul>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./Images/jogador1.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/jogador2.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/jogador3.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./Images/moedas1.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/moedas2.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/moedas3.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+            </div>
+        </div>
+    </section>
+    <section id="entertainment">
+        <div class="container">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="./Images/parques1.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Uma novidade no entretenimento</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/parques2.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Alguma noticia sobre famosos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/parques3.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Alguma novidade da TV</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+            </div>
+        </div>
+    </section>
+    <section id="tech">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./Images/tec1.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Noticia sobre BTC</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/tec2.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Alertas contra IAs</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+                    <article>
+                    <img src="./Images/tec3.jpg" alt="Imagem da noticia 1">
+                    <header>
+                        <time class="created-date">28/12/2024 às 18:49</time>
+                    </header>
+                    <h3>Novidades da Nasa</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eligendi sit animi placeat magnam odit non quisquam tenetur incidunt neque accusamus maiores voluptas totam dolore, voluptatum soluta. Provident, voluptates laudantium!
+                    </p>
+                    <a href="#" title="Leia a noticia completa">Leia mais</a>
+                    </article>
+            </div>
+        </div>
+    </section>
 </body>
-
 </html>
