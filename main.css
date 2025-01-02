@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+body h1{
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+#form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.campo-a-erro {
+    font-weight: bold;
+    font-size: 12px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #a11010;
+    background-color: #bb3d3d;
+    color:#fff;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+.campo-b-erro {
+    font-weight: bold;
+    font-size: 12px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #a11010;
+    background-color: #bb3d3d;
+    color:#fff;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+.message-none {
+    font-weight: bold;
+    font-size: 12px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #a11010;
+    background-color: #bb3d3d;
+    color:#fff;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.message-n {
+    font-weight: bold;
+    font-size: 12px;
+    width: 300px;
+    height: 35px;
+    border: 2px solid;
+    border-color: #a11010;
+    background-color: #bb3d3d;
+    color:#fff;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+.message-p {
+    font-weight: bold;
+    font-size: 12px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #10a13b;
+    background-color: #43c269;
+    color:#fff;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+button {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form id="form">
+        <div class="campo-a>">
+            <label for="campo-a"> Campo A: </label> 
+            <input type="text" id="campo-a" placeholder="Campo A" />
+        </div>
+        <div class="campo-a-erro">
+            <p> Este campo é apenas para números</p>
+        </div>
+        <div class="message-n">
+            <p> O número digitado é maior do que o do campo B</br> favor revise as informações</p>
+        </div>
+        <br />
+        <div class="campo-b">
+            <label for="campo-b"> Campo B: </label>
+            <input type="text" id="campo-b" placeholder="Campo B" />
+        </div>
+        <div class="campo-b-erro">
+            <p> Este campo é apenas para números</p>
+        </div>
+        <div class="message-p">
+            <p>Formulário enviado com sucesso</p>
+        </div>
+        <div class="message-none">
+            <p>Atenção! Preencha todos os campos</p>
+        </div>
+        <button id= "submit-btn" class="button-c" type="submit">
+            Cadastrar
+        </button>
+    </form>
+</body>
+<script src="./teste.js"></script>
+</html>
